@@ -1,0 +1,21 @@
+{
+  "name": "VoiceIsolate",
+  "short_name": "VoiceIsolate",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='48' fill='%23000'/%3E%3Cpath d='M96 56c-22 0-40 18-40 40v28a8 8 0 0 0 16 0v-28c0-13.2 10.8-24 24-24s24 10.8 24 24v28a8 8 0 0 0 16 0V96c0-22-18-40-40-40zm-20 88a8 8 0 0 0 0 16h40a8 8 0 0 0 0-16H76z' fill='%2300a8ff'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='128' fill='%23000'/%3E%3Cpath d='M256 149c-59 0-107 48-107 107v75a21 21 0 0 0 43 0v-75c0-35 28-64 64-64s64 29 64 64v75a21 21 0 0 0 43 0v-75c0-59-48-107-107-107zm-53 235a21 21 0 0 0 0 43h107a21 21 0 0 0 0-43H203z' fill='%2300a8ff'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
