@@ -1,0 +1,71 @@
+# Vercel ignore file — keep deployments small and focused on the web frontend
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+.gitmodules
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Desktop / Electron packaging
+electron/
+*.dmg
+*.AppImage
+*.snap
+packaging/
+deploy/
+
+# Python backend (deployed separately, not on Vercel)
+backend/
+omnivoice/
+pyproject.toml
+uv.lock
+*.py
+!api/proxy.py
+alembic.ini
+
+# Native / mobile
+mobile/
+native/
+fastlane/
+snap/
+vendor/
+bin/
+cli/
+scripts/
+tests/
+
+# Config / tooling
+config/
+Makefile
+dagger.json
+flake.lock
+flake.nix
+nix/
+vendor/wheels/
+
+# Lockfiles / caches
+bun.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+node_modules/
+**/node_modules/
+**/.cache/
+dist/
+.next/
+build/
+out/
+.turbo/
+*.log
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
